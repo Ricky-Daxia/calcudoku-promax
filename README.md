@@ -5,7 +5,7 @@
 
 [录屏链接](https://www.bilibili.com/video/BV1YT4y1n7ab)
 
-[补一个 i05 的链接，今天（1月12日发现没有放链接，但已经过了 ddl 了，视频是之前就已经录好的](https://www.bilibili.com/video/BV1oe411z7bT)
+[补一个 i05 的链接，今天（1月12日）发现没有放链接，但已经过了 ddl 了，视频是之前就已经录好的](https://www.bilibili.com/video/BV1oe411z7bT)
 
 ### 运用所学知识，构建聪明格App Pro Max版本：
 
