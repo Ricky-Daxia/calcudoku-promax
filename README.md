@@ -1,6 +1,12 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/HOmXqksq)
 # Final project
 
+[文档说明](readme/README.md)
+
+[录屏链接](https://www.bilibili.com/video/BV1YT4y1n7ab)
+
+[补一个 i05 的链接，今天（1月12日发现没有放链接，但已经过了 ddl 了，视频是之前就已经录好的](https://www.bilibili.com/video/BV1oe411z7bT)
+
 ### 运用所学知识，构建聪明格App Pro Max版本：
 
 - 必要功能：
