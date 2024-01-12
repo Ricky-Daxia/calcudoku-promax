@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2160981D2B50E66B00AEEC48 /* Inky2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2160981C2B50E66B00AEEC48 /* Inky2Controller.swift */; };
+		2160981F2B50E69D00AEEC48 /* Inky3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2160981E2B50E69D00AEEC48 /* Inky3Controller.swift */; };
+		216098212B50E6B300AEEC48 /* Inky4Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216098202B50E6B300AEEC48 /* Inky4Controller.swift */; };
+		219B5F272AFE16FF00C233AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5F262AFE16FF00C233AD /* AppDelegate.swift */; };
+		219B5F292AFE16FF00C233AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5F282AFE16FF00C233AD /* SceneDelegate.swift */; };
+		219B5F2B2AFE16FF00C233AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5F2A2AFE16FF00C233AD /* ViewController.swift */; };
+		219B5F2E2AFE16FF00C233AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219B5F2C2AFE16FF00C233AD /* Main.storyboard */; };
+		219B5F302AFE170100C233AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219B5F2F2AFE170100C233AD /* Assets.xcassets */; };
+		219B5F332AFE170100C233AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219B5F312AFE170100C233AD /* LaunchScreen.storyboard */; };
+		219B5F3E2AFE170200C233AD /* CalcudokuCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5F3D2AFE170200C233AD /* CalcudokuCollectionTests.swift */; };
+		219B5F482AFE170200C233AD /* CalcudokuCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5F472AFE170200C233AD /* CalcudokuCollectionUITests.swift */; };
+		219B5F4A2AFE170200C233AD /* CalcudokuCollectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5F492AFE170200C233AD /* CalcudokuCollectionUITestsLaunchTests.swift */; };
+		21CD8EF42B4FD79500E498E1 /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21CD8EF32B4FD79500E498E1 /* 001.jpg */; };
+		21CD8F002B4FE43D00E498E1 /* Inky1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CD8EFF2B4FE43D00E498E1 /* Inky1Controller.swift */; };
+		21CD8F022B4FF41D00E498E1 /* inky1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 21CD8F012B4FF41D00E498E1 /* inky1.txt */; };
+		21CD8F042B4FF46100E498E1 /* inky2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 21CD8F032B4FF46100E498E1 /* inky2.txt */; };
+		21CD8F062B4FF46800E498E1 /* inky3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 21CD8F052B4FF46800E498E1 /* inky3.txt */; };
+		21CD8F082B4FF47300E498E1 /* inky4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 21CD8F072B4FF47200E498E1 /* inky4.txt */; };
+		21CD8F0A2B501C1100E498E1 /* Calcudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CD8F092B501C1100E498E1 /* Calcudoku.swift */; };
+		21E400CE2B0217CE00EACB6B /* 4X4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 21E400CD2B0217CE00EACB6B /* 4X4.txt */; };
+		21E400D02B02181B00EACB6B /* 5X5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 21E400CF2B02181B00EACB6B /* 5X5.txt */; };
+		21E400D22B02184000EACB6B /* 6X6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 21E400D12B02184000EACB6B /* 6X6.txt */; };
+		21E400DC2B023B0E00EACB6B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E400DB2B023B0E00EACB6B /* MyViewController.swift */; };
+		21E400E22B023E2200EACB6B /* MyTableViewController4X4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E400E12B023E2200EACB6B /* MyTableViewController4X4.swift */; };
+		21E400E42B023E4900EACB6B /* MyTableViewController5X5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E400E32B023E4900EACB6B /* MyTableViewController5X5.swift */; };
+		21E400E62B023E6300EACB6B /* MyTableViewController6X6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E400E52B023E6300EACB6B /* MyTableViewController6X6.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219B5F3A2AFE170200C233AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219B5F1B2AFE16FF00C233AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219B5F222AFE16FF00C233AD;
+			remoteInfo = CalcudokuCollection;
+		};
+		219B5F442AFE170200C233AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219B5F1B2AFE16FF00C233AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219B5F222AFE16FF00C233AD;
+			remoteInfo = CalcudokuCollection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2160981C2B50E66B00AEEC48 /* Inky2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inky2Controller.swift; sourceTree = "<group>"; };
+		2160981E2B50E69D00AEEC48 /* Inky3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Inky3Controller.swift; path = CalcudokuCollection/Inky3Controller.swift; sourceTree = "<group>"; };
+		216098202B50E6B300AEEC48 /* Inky4Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inky4Controller.swift; sourceTree = "<group>"; };
+		219B5F232AFE16FF00C233AD /* CalcudokuCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcudokuCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B5F262AFE16FF00C233AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		219B5F282AFE16FF00C233AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		219B5F2A2AFE16FF00C233AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		219B5F2D2AFE16FF00C233AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		219B5F2F2AFE170100C233AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		219B5F322AFE170100C233AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		219B5F342AFE170100C233AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219B5F392AFE170200C233AD /* CalcudokuCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcudokuCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B5F3D2AFE170200C233AD /* CalcudokuCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcudokuCollectionTests.swift; sourceTree = "<group>"; };
+		219B5F432AFE170200C233AD /* CalcudokuCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcudokuCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B5F472AFE170200C233AD /* CalcudokuCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcudokuCollectionUITests.swift; sourceTree = "<group>"; };
+		219B5F492AFE170200C233AD /* CalcudokuCollectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcudokuCollectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21CD8EF32B4FD79500E498E1 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		21CD8EFF2B4FE43D00E498E1 /* Inky1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inky1Controller.swift; sourceTree = "<group>"; };
+		21CD8F012B4FF41D00E498E1 /* inky1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inky1.txt; sourceTree = "<group>"; };
+		21CD8F032B4FF46100E498E1 /* inky2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inky2.txt; sourceTree = "<group>"; };
+		21CD8F052B4FF46800E498E1 /* inky3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inky3.txt; sourceTree = "<group>"; };
+		21CD8F072B4FF47200E498E1 /* inky4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inky4.txt; sourceTree = "<group>"; };
+		21CD8F092B501C1100E498E1 /* Calcudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calcudoku.swift; sourceTree = "<group>"; };
+		21E400CD2B0217CE00EACB6B /* 4X4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 4X4.txt; sourceTree = "<group>"; };
+		21E400CF2B02181B00EACB6B /* 5X5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 5X5.txt; sourceTree = "<group>"; };
+		21E400D12B02184000EACB6B /* 6X6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 6X6.txt; sourceTree = "<group>"; };
+		21E400DB2B023B0E00EACB6B /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		21E400E12B023E2200EACB6B /* MyTableViewController4X4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController4X4.swift; sourceTree = "<group>"; };
+		21E400E32B023E4900EACB6B /* MyTableViewController5X5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController5X5.swift; sourceTree = "<group>"; };
+		21E400E52B023E6300EACB6B /* MyTableViewController6X6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController6X6.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219B5F202AFE16FF00C233AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5F362AFE170200C233AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5F402AFE170200C233AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219B5F1A2AFE16FF00C233AD = {
+			isa = PBXGroup;
+			children = (
+				216098202B50E6B300AEEC48 /* Inky4Controller.swift */,
+				2160981E2B50E69D00AEEC48 /* Inky3Controller.swift */,
+				2160981C2B50E66B00AEEC48 /* Inky2Controller.swift */,
+				21CD8EFF2B4FE43D00E498E1 /* Inky1Controller.swift */,
+				21CD8F072B4FF47200E498E1 /* inky4.txt */,
+				21CD8F052B4FF46800E498E1 /* inky3.txt */,
+				21CD8F032B4FF46100E498E1 /* inky2.txt */,
+				21CD8F012B4FF41D00E498E1 /* inky1.txt */,
+				219B5F252AFE16FF00C233AD /* CalcudokuCollection */,
+				219B5F3C2AFE170200C233AD /* CalcudokuCollectionTests */,
+				219B5F462AFE170200C233AD /* CalcudokuCollectionUITests */,
+				219B5F242AFE16FF00C233AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219B5F242AFE16FF00C233AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219B5F232AFE16FF00C233AD /* CalcudokuCollection.app */,
+				219B5F392AFE170200C233AD /* CalcudokuCollectionTests.xctest */,
+				219B5F432AFE170200C233AD /* CalcudokuCollectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219B5F252AFE16FF00C233AD /* CalcudokuCollection */ = {
+			isa = PBXGroup;
+			children = (
+				21E400DB2B023B0E00EACB6B /* MyViewController.swift */,
+				21CD8F092B501C1100E498E1 /* Calcudoku.swift */,
+				219B5F262AFE16FF00C233AD /* AppDelegate.swift */,
+				219B5F282AFE16FF00C233AD /* SceneDelegate.swift */,
+				219B5F2A2AFE16FF00C233AD /* ViewController.swift */,
+				21E400CF2B02181B00EACB6B /* 5X5.txt */,
+				21E400D12B02184000EACB6B /* 6X6.txt */,
+				21E400CD2B0217CE00EACB6B /* 4X4.txt */,
+				219B5F2C2AFE16FF00C233AD /* Main.storyboard */,
+				21CD8EF32B4FD79500E498E1 /* 001.jpg */,
+				21E400E12B023E2200EACB6B /* MyTableViewController4X4.swift */,
+				21E400E32B023E4900EACB6B /* MyTableViewController5X5.swift */,
+				21E400E52B023E6300EACB6B /* MyTableViewController6X6.swift */,
+				219B5F2F2AFE170100C233AD /* Assets.xcassets */,
+				219B5F312AFE170100C233AD /* LaunchScreen.storyboard */,
+				219B5F342AFE170100C233AD /* Info.plist */,
+			);
+			path = CalcudokuCollection;
+			sourceTree = "<group>";
+		};
+		219B5F3C2AFE170200C233AD /* CalcudokuCollectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				219B5F3D2AFE170200C233AD /* CalcudokuCollectionTests.swift */,
+			);
+			path = CalcudokuCollectionTests;
+			sourceTree = "<group>";
+		};
+		219B5F462AFE170200C233AD /* CalcudokuCollectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				219B5F472AFE170200C233AD /* CalcudokuCollectionUITests.swift */,
+				219B5F492AFE170200C233AD /* CalcudokuCollectionUITestsLaunchTests.swift */,
+			);
+			path = CalcudokuCollectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219B5F222AFE16FF00C233AD /* CalcudokuCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219B5F4D2AFE170200C233AD /* Build configuration list for PBXNativeTarget "CalcudokuCollection" */;
+			buildPhases = (
+				219B5F1F2AFE16FF00C233AD /* Sources */,
+				219B5F202AFE16FF00C233AD /* Frameworks */,
+				219B5F212AFE16FF00C233AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalcudokuCollection;
+			productName = CalcudokuCollection;
+			productReference = 219B5F232AFE16FF00C233AD /* CalcudokuCollection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		219B5F382AFE170200C233AD /* CalcudokuCollectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219B5F502AFE170200C233AD /* Build configuration list for PBXNativeTarget "CalcudokuCollectionTests" */;
+			buildPhases = (
+				219B5F352AFE170200C233AD /* Sources */,
+				219B5F362AFE170200C233AD /* Frameworks */,
+				219B5F372AFE170200C233AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219B5F3B2AFE170200C233AD /* PBXTargetDependency */,
+			);
+			name = CalcudokuCollectionTests;
+			productName = CalcudokuCollectionTests;
+			productReference = 219B5F392AFE170200C233AD /* CalcudokuCollectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		219B5F422AFE170200C233AD /* CalcudokuCollectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219B5F532AFE170200C233AD /* Build configuration list for PBXNativeTarget "CalcudokuCollectionUITests" */;
+			buildPhases = (
+				219B5F3F2AFE170200C233AD /* Sources */,
+				219B5F402AFE170200C233AD /* Frameworks */,
+				219B5F412AFE170200C233AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219B5F452AFE170200C233AD /* PBXTargetDependency */,
+			);
+			name = CalcudokuCollectionUITests;
+			productName = CalcudokuCollectionUITests;
+			productReference = 219B5F432AFE170200C233AD /* CalcudokuCollectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219B5F1B2AFE16FF00C233AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					219B5F222AFE16FF00C233AD = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					219B5F382AFE170200C233AD = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 219B5F222AFE16FF00C233AD;
+					};
+					219B5F422AFE170200C233AD = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 219B5F222AFE16FF00C233AD;
+					};
+				};
+			};
+			buildConfigurationList = 219B5F1E2AFE16FF00C233AD /* Build configuration list for PBXProject "CalcudokuCollection" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219B5F1A2AFE16FF00C233AD;
+			productRefGroup = 219B5F242AFE16FF00C233AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219B5F222AFE16FF00C233AD /* CalcudokuCollection */,
+				219B5F382AFE170200C233AD /* CalcudokuCollectionTests */,
+				219B5F422AFE170200C233AD /* CalcudokuCollectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219B5F212AFE16FF00C233AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B5F332AFE170100C233AD /* LaunchScreen.storyboard in Resources */,
+				21CD8F062B4FF46800E498E1 /* inky3.txt in Resources */,
+				21E400D02B02181B00EACB6B /* 5X5.txt in Resources */,
+				21E400CE2B0217CE00EACB6B /* 4X4.txt in Resources */,
+				21CD8F022B4FF41D00E498E1 /* inky1.txt in Resources */,
+				21CD8EF42B4FD79500E498E1 /* 001.jpg in Resources */,
+				21E400D22B02184000EACB6B /* 6X6.txt in Resources */,
+				21CD8F082B4FF47300E498E1 /* inky4.txt in Resources */,
+				219B5F302AFE170100C233AD /* Assets.xcassets in Resources */,
+				219B5F2E2AFE16FF00C233AD /* Main.storyboard in Resources */,
+				21CD8F042B4FF46100E498E1 /* inky2.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5F372AFE170200C233AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5F412AFE170200C233AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219B5F1F2AFE16FF00C233AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CD8F002B4FE43D00E498E1 /* Inky1Controller.swift in Sources */,
+				2160981D2B50E66B00AEEC48 /* Inky2Controller.swift in Sources */,
+				219B5F2B2AFE16FF00C233AD /* ViewController.swift in Sources */,
+				219B5F272AFE16FF00C233AD /* AppDelegate.swift in Sources */,
+				21E400E62B023E6300EACB6B /* MyTableViewController6X6.swift in Sources */,
+				21E400E22B023E2200EACB6B /* MyTableViewController4X4.swift in Sources */,
+				219B5F292AFE16FF00C233AD /* SceneDelegate.swift in Sources */,
+				216098212B50E6B300AEEC48 /* Inky4Controller.swift in Sources */,
+				21E400DC2B023B0E00EACB6B /* MyViewController.swift in Sources */,
+				2160981F2B50E69D00AEEC48 /* Inky3Controller.swift in Sources */,
+				21CD8F0A2B501C1100E498E1 /* Calcudoku.swift in Sources */,
+				21E400E42B023E4900EACB6B /* MyTableViewController5X5.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5F352AFE170200C233AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B5F3E2AFE170200C233AD /* CalcudokuCollectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5F3F2AFE170200C233AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B5F4A2AFE170200C233AD /* CalcudokuCollectionUITestsLaunchTests.swift in Sources */,
+				219B5F482AFE170200C233AD /* CalcudokuCollectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		219B5F3B2AFE170200C233AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219B5F222AFE16FF00C233AD /* CalcudokuCollection */;
+			targetProxy = 219B5F3A2AFE170200C233AD /* PBXContainerItemProxy */;
+		};
+		219B5F452AFE170200C233AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219B5F222AFE16FF00C233AD /* CalcudokuCollection */;
+			targetProxy = 219B5F442AFE170200C233AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		219B5F2C2AFE16FF00C233AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219B5F2D2AFE16FF00C233AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		219B5F312AFE170100C233AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219B5F322AFE170100C233AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219B5F4B2AFE170200C233AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		219B5F4C2AFE170200C233AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219B5F4E2AFE170200C233AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalcudokuCollection/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daxia.CalcudokuCollection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		219B5F4F2AFE170200C233AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalcudokuCollection/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daxia.CalcudokuCollection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		219B5F512AFE170200C233AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daxia.CalcudokuCollectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalcudokuCollection.app/CalcudokuCollection";
+			};
+			name = Debug;
+		};
+		219B5F522AFE170200C233AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daxia.CalcudokuCollectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalcudokuCollection.app/CalcudokuCollection";
+			};
+			name = Release;
+		};
+		219B5F542AFE170200C233AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daxia.CalcudokuCollectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalcudokuCollection;
+			};
+			name = Debug;
+		};
+		219B5F552AFE170200C233AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daxia.CalcudokuCollectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalcudokuCollection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219B5F1E2AFE16FF00C233AD /* Build configuration list for PBXProject "CalcudokuCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B5F4B2AFE170200C233AD /* Debug */,
+				219B5F4C2AFE170200C233AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219B5F4D2AFE170200C233AD /* Build configuration list for PBXNativeTarget "CalcudokuCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B5F4E2AFE170200C233AD /* Debug */,
+				219B5F4F2AFE170200C233AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219B5F502AFE170200C233AD /* Build configuration list for PBXNativeTarget "CalcudokuCollectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B5F512AFE170200C233AD /* Debug */,
+				219B5F522AFE170200C233AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219B5F532AFE170200C233AD /* Build configuration list for PBXNativeTarget "CalcudokuCollectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B5F542AFE170200C233AD /* Debug */,
+				219B5F552AFE170200C233AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 219B5F1B2AFE16FF00C233AD /* Project object */;
+}
